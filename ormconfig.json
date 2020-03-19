@@ -1,0 +1,25 @@
+[{
+    "name":"default",
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "gestion_talentos",
+    "password": "trebol123",
+    "schema": "gestion_talentos_local",
+    "database": "postgres",
+    "synchronize": true,
+    "entities": ["dist/src/infrastructure/repository/entity/*.js"]
+},
+{    
+    "name":"second",
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "gestion_talentos",
+    "password": "trebol123",
+    "schema": "gestion_talentos_temp",
+    "database": "postgres",
+    "synchronize": true,
+    "entities": ["dist/src/infrastructure/repository/entity2/*.js"]}
+]
+
